@@ -282,42 +282,28 @@ body.dark-theme {
   overflow: hidden;
 }
 
-/* .home__perfil img {
-  width: 100%; //让图片充满父容器 
-  height: auto;  //保持图片纵横比 
-  border-radius: 10rem 10rem 10rem 10rem; // 可能需要和父//容器一致的圆角 
+.home__perfil img {
+  width: 100%; /* 让图片充满父容器 */
+  height: auto; /* 保持图片纵横比 */
+  border-radius: 10rem 10rem 10rem 10rem; /* 可能需要和父容器一致的圆角 */
   object-fit: cover;
-} 
-*/
+}
 
 .home__img {
   width: 205px;
   transform: translateY(1px);
 }
 
-/* .home__star-1,
+.home__star-1,
 .home__star-2 {
   position: absolute;
   width: 50px;
   fill: var(--title-color);
   transition: fill 0.4s;
-} */
-
-/* .home__star-1 {
-  top: 2.5rem;
-  left: -3rem;
-  rotate: 15deg;
 }
-
-.home__star-2 {
-  right: -3.5rem;
-  bottom: 0.75rem;
-} */
 
 .home__profession {
   transform: translateY(-1.2rem);
-
-  margin-top: 3rem;
 }
 
 /*=============== ABOUT ===============*/
